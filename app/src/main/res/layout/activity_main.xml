@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        tools:ignore="ExtraText">
+        <Button
+            android:onClick="check"
+            android:id="@+id/btn1"/>
+        <Button
+            android:layout_marginLeft="11dp"
+            android:onClick="check"
+            android:id="@+id/btn2"/>
+        <Button
+            android:layout_marginLeft="11dp"
+            android:onClick="check"
+            android:id="@+id/btn3"/>
+        <Button
+            android:onClick="check"
+            android:id="@+id/btn4"/>
+        <Button
+            android:layout_marginLeft="11dp"
+            android:onClick="check"
+            android:id="@+id/btn5"/>
+        <Button
+            android:onClick="check"
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btn6"/>
+        <Button
+            android:onClick="check"
+            android:id="@+id/btn7"/>
+        <Button
+            android:onClick="check"
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btn8"/>
+        <Button
+            android:onClick="check"
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btn9"/>
+    </GridLayout>
+
+</LinearLayout>
